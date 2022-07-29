@@ -15,9 +15,9 @@ enabled = true
   import_root = "github.com/g00b/Gigarepo"
 
 [[transformers]]
-name = "gofmt"
+name = "prettier"
 enabled = true
 
 [[transformers]]
-name = "prettier"
+name = "gofmt"
 enabled = true
