@@ -4,9 +4,6 @@ version = 1
 name = "javascript"
 enabled = true
 
-  [analyzers.meta]
-  plugins = ["react"]
-
 [[analyzers]]
 name = "go"
 enabled = true
@@ -14,10 +11,6 @@ enabled = true
   [analyzers.meta]
   import_root = "github.com/g00b/Gigarepo"
 
-[[analyzers]]
-name = "terraform"
-enabled = true
-
 [[transformers]]
-name = "prettier"
+name = "gofmt"
 enabled = true
