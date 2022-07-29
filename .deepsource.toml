@@ -4,6 +4,9 @@ version = 1
 name = "javascript"
 enabled = true
 
+  [analyzers.meta]
+  plugins = ["react"]
+
 [[analyzers]]
 name = "go"
 enabled = true
@@ -13,4 +16,8 @@ enabled = true
 
 [[transformers]]
 name = "gofmt"
+enabled = true
+
+[[transformers]]
+name = "prettier"
 enabled = true
